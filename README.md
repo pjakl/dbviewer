@@ -11,8 +11,11 @@ Following functionality is supported:
 
 
 ### How to run it
+Service is utilizing spring profiles to determine environment of the application. 
+
+If no profile is passed application by default starts with H2 in-memory database.
 Use environment property -Dspring.profiles.active=prod to run production version against Postgress DB instance.
-Add connection details to application-prod.properties.
+Add connection for Postgress DB to application-prod.properties.
 
 ### Connection Password encryption  
 All passwords stored to database as part of database configuration are encrypted. Service is using Jasypt library for encoding.
