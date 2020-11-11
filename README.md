@@ -28,3 +28,7 @@ This property should be encoded using following process.
 
 Please note that dev environment already has this setup done. You should follow this mainly for production setup.
   
+## TODO
+Following items are in progress: 
+ - Add HATEOS for all resources
+ - Add Swagger UI to document API 
